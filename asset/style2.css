@@ -1,0 +1,266 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+
+/* body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+/* navbar */
+.navbar {
+  background-color: #643bc4;
+}
+
+.navbar .container-fluid {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* tulisan navbar portofolio */
+.navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* tulisan kecil nav */
+.navbar-nav .nav-link {
+  color: #eae7b1;
+}
+
+/* jumbotron */
+.head1 * {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+/* card */
+
+/* list card */
+.col {
+  padding-left: 40px;
+}
+
+/* card isi */
+/* title */
+.card .card-body .card-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #552cb7;
+  font-variant: normal;
+}
+
+/* card */
+.col {
+  margin-bottom: 30px;
+}
+.card .card-body .card-text {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.card {
+  background-color: white;
+}
+
+.card-text {
+  min-height: 150px;
+  text-align: center;
+}
+
+.card-img-top {
+  max-height: 400px;
+}
+/* kata kata awal */
+
+.kataawal {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+/* por */
+.portoawal {
+  text-align: center;
+  height: 400px;
+  background-color: #fd5a46;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portoawal h1 {
+  color: #fff; /* Warna teks menjadi putih atau sesuai yang Anda inginkan */
+  font-size: 24px; /* Ukuran font sesuai yang Anda inginkan */
+  margin: 0; /* Hapus margin yang mungkin ada secara default */
+  font-size: 100px;
+}
+
+.wrap {
+  margin-top: 100px;
+}
+
+.porto h1 {
+  font-size: 50px;
+}
+
+/* gambar bulet */
+.portfolio-item {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #7c83e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* pembungkus portofolio */
+.detailpor {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Untuk membuat gambar menjadi lingkaran */
+.rounded-image {
+  border-radius: 50%; /* Mengatur border-radius ke 50% untuk membuatnya melingkar */
+  width: 300px; /* Atur lebar gambar sesuai kebutuhan */
+  height: 300px; /* Atur tinggi gambar sesuai kebutuhan */
+  object-fit: cover; /* Untuk memastikan gambar tetap proporsional */
+}
+
+/* Menghilangkan border di portfolio-item */
+.portfolio-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px; /* Atur tinggi container sesuai kebutuhan */
+  overflow: hidden; /* Memastikan gambar tidak keluar dari batas container */
+  border: none; /* Menghilangkan border */
+  padding: 20px;
+}
+
+.portfolio-info {
+  padding: 30px; /* Berikan jarak antara informasi portofolio */
+}
+
+/* Contoh gaya link untuk "Lihat detail" */
+.portfolio-info h2 {
+  font-size: 47px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* section service*/
+#services {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.APA {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.keahlian {
+  text-align: justify;
+  min-height: 200px;
+}
+
+#services1 {
+  padding-bottom: 90px;
+  padding-top: 70px;
+  background-color: #4d98c0;
+}
+
+#services2 {
+  padding-bottom: 90px;
+  padding-top: 70px;
+  background-color: #ffc567;
+}
+
+#services3 {
+  padding-bottom: 90px;
+  padding-top: 70px;
+  background-color: #fb7da8;
+}
+
+.servis1 {
+  background-color: #fff;
+}
+
+.servis2 {
+  background-color: #fff;
+}
+
+.servis3 {
+  background-color: #fff;
+}
+
+/* tampilan mobile phone */
+/* untuk tampilan layar maksimal 768pixel */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .head1 * {
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  .wadah1 {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 70px;
+  }
+
+  .col {
+    margin-bottom: 20px;
+    margin: 0;
+  }
+
+  .rounded-image {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+
+  .portfolio-item {
+    height: 200px;
+  }
+  .porto {
+    margin: 0;
+  }
+}
+
+footer {
+  text-align: center;
+}
