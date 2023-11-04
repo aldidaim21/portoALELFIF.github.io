@@ -221,10 +221,15 @@ ul {
   background-color: #fff;
 }
 
+footer {
+  text-align: center;
+}
+
 /* tampilan mobile phone */
 /* untuk tampilan layar maksimal 768pixel */
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+
   .head1 * {
     font-weight: bolder;
     font-size: 30px;
@@ -239,7 +244,7 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-left: 70px;
+    justify-content: center;
   }
 
   .col {
@@ -259,8 +264,19 @@ ul {
   .porto {
     margin: 0;
   }
-}
 
-footer {
-  text-align: center;
+  .navbar .container-fluid {
+    margin: 0;
+    padding-left: 10px;
+  }
+  .navbar {
+    background-color: #643bc4;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .portoawal h1 {
+    font-size: 60px;
+  }
 }
