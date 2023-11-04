@@ -227,7 +227,7 @@ footer {
 
 /* tampilan mobile phone */
 /* untuk tampilan layar maksimal 768pixel */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 844px) {
   /* For mobile phones: */
 
   .head1 * {
