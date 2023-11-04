@@ -227,9 +227,13 @@ footer {
 
 /* tampilan mobile phone */
 /* untuk tampilan layar maksimal 768pixel */
-@media only screen and (max-width: 844px) {
+@media only screen and (max-width: 896px) {
   /* For mobile phones: */
 
+  body {
+    padding: 0px;
+    margin-left: 0px;
+  }
   .head1 * {
     font-weight: bolder;
     font-size: 30px;
