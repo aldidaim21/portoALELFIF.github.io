@@ -825,4 +825,22 @@
   <footer>
     <p>&copy; aldielrafif</p>
   </footer>
+  <script>
+    // Function to check if the user is on a mobile device
+    function isMobileDevice() {
+      return (
+        typeof window.orientation !== "undefined" ||
+        navigator.userAgent.indexOf("IEMobile") !== -1
+      );
+    }
+
+    // Function to display alert if user is on a mobile device
+    function checkMobileDevice() {
+      if (isMobileDevice()) {
+        alert("Anda menggunakan perangkat mobile!");
+      } else {
+        alert("Anda tidak menggunakan perangkat mobile.");
+      }
+    }
+  </script>
 </html>
